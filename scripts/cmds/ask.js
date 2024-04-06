@@ -5,7 +5,7 @@ const Prefixes = [
   'kim',
   'ggl',
   '+ai',
-  'emli',
+  'Liza',
   'ai',
   'ask',
 ];
@@ -31,7 +31,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("Hey I am Emli ask me questions dear🦥");
+        await message.reply("Hey I am Liza ask me questions dear😙💋");
         return;
       }
 
@@ -40,7 +40,7 @@ module.exports = {
       const answer = response.data.answer;
 
  
-    await message.reply({ body: `𝗘𝗠𝗟𝗜 𝗕𝗢𝗧 | 🌸
+    await message.reply({ body: `𝗟𝗜𝗭𝗔𝗔 𝗕𝗢𝗧 | 🌸
 ━━━━━━━━━━━━━        
 ${answer}
 ━━━━━━━━━━━━━`,
